@@ -1,7 +1,7 @@
 
 # Welcome 👋, I'm Manimalavan Dilipkumar
 
-### Business Analyst  AI Enthusiast
+# Business Analyst  AI Enthusiast
 
 Hello! I'm Mani, a passionate professional standing at the crossroads of data analytics and artificial intelligence. My journey is driven by a curiosity about the power of data to transform ideas into tangible outcomes and a deep belief in the potential of AI to revolutionize how we approach business challenges. Let's dive into the world of data-driven decision-making and innovative solutions together!
 
