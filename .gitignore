@@ -1,5 +1,17 @@
-venv*/ 
-*.csv 
-*.json 
-*.env 
-__pycache__/ 
+# Python virtual envs & caches
+__pycache__/
+
+# Secrets
+*.env
+*apikey*.txt
+*secret*.txt
+
+# Large raw data
+*.csv
+*.json
+*.xlsx
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
