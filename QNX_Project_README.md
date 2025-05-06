@@ -15,15 +15,10 @@ QNX Project/
 │
 └── Data Extraction to Data Processing/
     ├── 05.04_Data Collection_with code/
-    │   ├── files/                                 # Raw source data (txt, csv, json)
-    │   │   ├── qnx_raw_comments.txt               # Unfiltered QNX comments
-    │   │   └── unreal_forum_dump.json             # Unreal Engine discussions
-    │   └── venv_code/
+
     │       ├── 1. Openai/                         # OpenAI prompt engineering & response parsing
     │       ├── 2. QNX/                            # QNX-focused extraction: logs → developer insights
     │       ├── 3. Unreal Engine/                  # Unreal scraping: GitHub contributors, changelogs
-    │       ├── docx-template/                     # Template for Word export automation
-    │       └── site-packages/                     # Virtual env packages: transformers, torch, openai, sklearn, etc.
     │
     └── 05.04_Data Pre-processing/
         ├── Raw Data/                              # Input to preprocessing pipeline
@@ -31,12 +26,7 @@ QNX Project/
         ├── Pre-Processed data/                    # Cleaned & labeled datasets
         │   ├── QNX_cleaned_output.csv             # Cleaned and tokenized QNX dataset
         │   └── Unreal_sentiment_ready.xlsx        # Ready for visualization & modeling
-        ├── venv_preprocessing/
-        │   └── Scripts/
-        │       ├── clean_qnx_text.py              # Normalization, token removal
-        │       ├── openai_sentiment_tag.py        # Calls OpenAI for zero-shot classification
-        │       ├── entity_recognition.py          # (Optional) NER via HuggingFace
-        │       └── merge_and_export.py            # Merge multiple sources into one dataset
+        ├
         └── README_Pre_processing.md               # Step-by-step usage and setup guide
 ```
 
